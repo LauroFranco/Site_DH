@@ -1,15 +1,18 @@
 body{
     font-family: 'Raleway', sans-serif;
  }
+ header{
+     border: 1px solid black;
+ }
  #logo{
      text-align: center;
  }
- ul{
+ #ul_index{
     list-style-type: none;     
     text-align: center;
     padding: 0px;
  }
- li{
+ #li_index{
     display: inline-block;
     margin-right: 10px;
  }
@@ -29,4 +32,75 @@ body{
      font-weight: bold;
     background-color: rgb(177, 177, 177);
     text-align: center;
+}
+#infos{
+    align-content: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+}
+#imagem_about{
+    height: 250px;
+    width: 25%;
+    align:center;
+    background-image: url('../img/jane2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 500px;
+    margin-bottom: 50px;
+}
+cabecalho{
+    border-width: medium;
+    border-color: black
+}
+#songs{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hyperlink{
+    color: blue;
+}
+#contact_text{
+    text-align: left;
+    margin-left: 15%;
+}
+div{
+    margin-top: 50px;
+}
+#borda{
+    margin-bottom: 10px;
+    border-bottom:solid 1px black;
+}
+/*main{
+    width:80%;
+    margin-left:200px;
+
+}*/
+textarea {
+    resize: none;
+ }
+ #mapa{
+     position: relative;
+     float: right;
+ }
+ul{
+    text-decoration: none;
+}
+.contact form *{
+    display: block; 
+}
+.contact-form form, iframe{
+    display: inline-block;
+    width: 49%;
 }
